@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(img/1614542034_26-p-fon-belii-tekstura-31.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+*{
+    box-sizing: border-box;
+}
+.title{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+.players{
+    display: none;
+    justify-content: space-between;
+}
+
+.parent-button{
+    padding-top: 6em;
+    text-align: center;
+}
+.playing-field_button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 12px; 
+    transition: all .3s;
+}
+.playing-field_button:hover{
+    background: black;
+    color: #fff;
+}
+.people-Selection{
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 50vh;
+    width: 30vw;
+    margin: 1em 4em;
+}
+.people-Selection-img{
+    display: flex;
+    justify-content: space-around;
+}
+.computer-Selection{
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 50vh;
+    width: 30vw;
+    margin: 1em 4em;
+}
+.people-Selection-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.computer-Selection-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.people-Selection img{
+    max-width: 100px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.people-Selection img:hover{
+    transform: scale(1.2);
+}
+.check{
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+}
+.choice{
+    text-align: center;
+    padding-top: 5em;
+}
+.move{
+    justify-content: center;
+    padding-top: 5em;
+    display: flex;
+}
+.computer-Selection-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.comp-img {
+    max-width: 100px;
+}

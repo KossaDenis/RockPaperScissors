@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="playing-field">
+        <h1 class="title">Камень Ножницы Бумага</h1>
+        <div id="parent-button" class="parent-button">
+            <a id="playing-field_button" class="playing-field_button" href="#">НАЧАТЬ ИГРУ</a>
+        </div>
+        <div id="players" class="players">
+            <div class="people-Selection">
+                <h1 class="people-Selection-title">Выберите чем ходить</h1>
+                <div id="people-Selection-img" class="people-Selection-img">
+                    <img  id="stone" class="stone-img" src="img/stone.png" alt=""  >
+                    <img id="scissors" class="scissors-img" src="img/scissors.png" alt="">
+                    <img id="paper" class="paper-img" src="img/paper.png" alt="">
+                </div>
+                <p class="choice" id="choice-paragraph"></p>
+            </div>
+            <div id="check" class="check"></div>
+            <div class="computer-Selection">
+                <h1 class="computer-Selection-title">Компьютер ходит...</h1>
+                <div id="computer-Selection-img" class="computer-Selection-img">
+                    <img src="" alt="" class="comp-img" id="computer-choice">
+                </div>
+                <p id="move" class="move"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
